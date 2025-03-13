@@ -1,0 +1,75 @@
+# IDE Specific
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+._*
+.DS_Store
+
+# Helm Specific
+/charts/*/Chart.lock
+/charts/*/values.schema.json
+**/node_modules
+/output/*
+
+# Kubernetes Specific
+*.kubeconfig
+*-kubeconfig.yaml
+*.key
+*.cert
+*.enc
+/secrets/*
+kube/cache/
+kube/http-cache/
+kube/plugins/
+kube/static-pod-resources/
+kube/tls/
+tmp/
+tmp/tmp_dir/
+tmp/tmpfiles/
+tmp/temp_dir/
+tmp/tempfiles/
+__pycache__/
+
+# General / OS
+*.log
+*.bak
+*.tmp
+~$*
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.arj
+*.bz2
+*.cab
+*.gz
+*.iso
+*.lzh
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Logs and databases
+*.sqlite
+*.sqlite3
+*.dmp
+*.dump
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+[Tt]humbs.db
