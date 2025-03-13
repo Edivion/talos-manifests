@@ -1,0 +1,5 @@
+agent:
+  dontLoadKernelModules: true
+  installCNI:
+    securityContext:
+      capabilities: []
